@@ -1561,23 +1561,18 @@ form label {
   visibility: visible;
 }
 .happy-wedding{
-  width: 50px;
-  height: 50px;
   display: table;
   background: rgba(0, 0, 0, 0.5);
-  color: #fff;
+  color: #ff0000;
   text-align: center;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  border-radius: 4px;
 }
 .happy-wedding img {
   height: 50px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  border-radius: 25px;
+}
+
+.btn.happy-wedding {
+  border-radius: 0px;
+  padding: 0px !important;
 }
 
 .thanks img {
@@ -1589,6 +1584,8 @@ form label {
   padding: 0px !important;
   background-color: red !important;
 }
+
+
 
 .fh5co-nav-toggle {
   width: 25px;
